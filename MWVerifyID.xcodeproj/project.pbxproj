@@ -14,6 +14,7 @@
 		2A8D4A931B70904E008BDB53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8D4A921B70904E008BDB53 /* Images.xcassets */; };
 		2A8D4A961B70904E008BDB53 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A8D4A941B70904E008BDB53 /* LaunchScreen.xib */; };
 		2A8D4AA21B70904E008BDB53 /* MWVerifyIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8D4AA11B70904E008BDB53 /* MWVerifyIDTests.m */; };
+		2A98EB541B737D43006ED3BD /* MWRegularExpressionAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A98EB531B737D43006ED3BD /* MWRegularExpressionAPI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2A8D4A9B1B70904E008BDB53 /* MWVerifyIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MWVerifyIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A8D4AA01B70904E008BDB53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A8D4AA11B70904E008BDB53 /* MWVerifyIDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWVerifyIDTests.m; sourceTree = "<group>"; };
+		2A98EB521B737D43006ED3BD /* MWRegularExpressionAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWRegularExpressionAPI.h; sourceTree = "<group>"; };
+		2A98EB531B737D43006ED3BD /* MWRegularExpressionAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWRegularExpressionAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				2A8D4A8A1B70904E008BDB53 /* AppDelegate.m */,
 				2A8D4A8C1B70904E008BDB53 /* ViewController.h */,
 				2A8D4A8D1B70904E008BDB53 /* ViewController.m */,
+				2A98EB521B737D43006ED3BD /* MWRegularExpressionAPI.h */,
+				2A98EB531B737D43006ED3BD /* MWRegularExpressionAPI.m */,
 				2A8D4A8F1B70904E008BDB53 /* Main.storyboard */,
 				2A8D4A921B70904E008BDB53 /* Images.xcassets */,
 				2A8D4A941B70904E008BDB53 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				2A8D4A8E1B70904E008BDB53 /* ViewController.m in Sources */,
 				2A8D4A8B1B70904E008BDB53 /* AppDelegate.m in Sources */,
 				2A8D4A881B70904E008BDB53 /* main.m in Sources */,
+				2A98EB541B737D43006ED3BD /* MWRegularExpressionAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				2A8D4AA71B70904E008BDB53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A8D4AA81B70904E008BDB53 /* Build configuration list for PBXNativeTarget "MWVerifyIDTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				2A8D4AAA1B70904E008BDB53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
