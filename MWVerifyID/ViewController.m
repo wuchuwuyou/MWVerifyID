@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    
+    ///exp
     NSArray *arr = @[@"361123197804117613",
                     @"513431197611287655",
                     @"431300198509122056",
