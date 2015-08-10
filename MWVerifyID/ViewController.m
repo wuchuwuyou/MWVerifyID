@@ -35,6 +35,7 @@
                     @"640121198201163096",
                     @"350525198411274593",
                      @"152525197807123097"];
+    
     for (NSString *code in arr) {
         MWUser *user =  [MWValidateIDCard userInfoWithidentityCard:code];
         NSLog(@"%@",user);
