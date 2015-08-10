@@ -53,14 +53,14 @@
 
 - (MWUser *)userWithIDCard:(NSString *)card{
     if (![self validateIDCard:card]) {
-        NSAssert(nil, @"不是身份证");
+        NSLog(@"身份证号码错误");
         return nil;
     }
     NSInteger year = [[card substringWithRange:NSMakeRange(6, 4)] integerValue];
     NSInteger month = [[card substringWithRange:NSMakeRange(10, 2)] integerValue];
     NSInteger day = [[card substringWithRange:NSMakeRange(12, 2)] integerValue];
     
-    NSString *code = [card substringWithRange:NSMakeRange(0, 2)];
+//    NSString *code = [card substringWithRange:NSMakeRange(0, 2)];
     
     NSInteger gender = [[card substringWithRange:NSMakeRange(16, 1)] integerValue];
     NSString *genderStr;

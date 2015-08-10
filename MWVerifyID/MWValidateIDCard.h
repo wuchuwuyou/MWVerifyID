@@ -20,7 +20,7 @@ struct MWIDInfo {
     NSUInteger timestamp;
 };
 /*!
- *  @author Murphy, 2015-08-10 17:08
+ *  @author Tiny, 2015-08-10 17:08
  *
  *  @brief  目前仅支持18位身份证号码
  */

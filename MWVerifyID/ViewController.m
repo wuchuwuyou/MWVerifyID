@@ -20,7 +20,7 @@
     
     
     ///exp
-    NSArray *arr = @[@"361123197804117613",
+    NSArray *arr = @[@"361123197804117614",
                     @"513431197611287655",
                     @"431300198509122056",
                     @"441502198306303434",
@@ -37,9 +37,16 @@
                      @"152525197807123097"];
     
     for (NSString *code in arr) {
+        if ([MWValidateIDCard validateIdentityCard:code]) {
+            NSLog(@"身份证验证通过");
+        }else{
+            NSLog(@"身份证验证不通过");
+        }
         MWUser *user =  [MWValidateIDCard userInfoWithidentityCard:code];
         NSLog(@"%@",user);
+
     }
+    
 }
 
 - (void)didReceiveMemoryWarning {
