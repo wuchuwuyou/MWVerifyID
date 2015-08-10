@@ -87,7 +87,7 @@
     [dateFormatter setTimeZone:localzone];
     user.birthday = date;
     
-    NSString * reg =  [NSString stringWithFormat:@"%@%@", [self.zoneCode objectForKey:[code stringByAppendingString:@"0000"]], [self.zoneCode objectForKey:zone]];
+    NSString * reg = [self.zoneCode objectForKey:zone];
     
     user.region = reg;
     
@@ -109,7 +109,7 @@
 
 - (NSDictionary *)zoneCode{
     if (!_zoneCode) {
-        NSString *filePath = [[NSBundle mainBundle] pathForResource:@"ZoneBitCode" ofType:@"json"];
+        NSString *filePath = [[NSBundle mainBundle] pathForResource:@"ZoneCode" ofType:@"json"];
         NSData *JSONData = [NSData dataWithContentsOfFile:filePath options:NSDataReadingMappedIfSafe error:nil];
         _zoneCode = [NSJSONSerialization JSONObjectWithData:JSONData options:NSJSONReadingAllowFragments error:nil];
     }

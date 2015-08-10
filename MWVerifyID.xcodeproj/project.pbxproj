@@ -15,7 +15,7 @@
 		2A8D4A961B70904E008BDB53 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A8D4A941B70904E008BDB53 /* LaunchScreen.xib */; };
 		2A8D4AA21B70904E008BDB53 /* MWVerifyIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8D4AA11B70904E008BDB53 /* MWVerifyIDTests.m */; };
 		2A98EB571B748B07006ED3BD /* MWValidateIDCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A98EB561B748B07006ED3BD /* MWValidateIDCard.m */; };
-		2A98EB591B78393D006ED3BD /* ZoneBitCode.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A98EB581B78393D006ED3BD /* ZoneBitCode.json */; };
+		2A98EB5B1B78F2AC006ED3BD /* ZoneCode.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A98EB5A1B78F2AC006ED3BD /* ZoneCode.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,7 @@
 		2A8D4AA11B70904E008BDB53 /* MWVerifyIDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWVerifyIDTests.m; sourceTree = "<group>"; };
 		2A98EB551B748B07006ED3BD /* MWValidateIDCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWValidateIDCard.h; sourceTree = "<group>"; };
 		2A98EB561B748B07006ED3BD /* MWValidateIDCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWValidateIDCard.m; sourceTree = "<group>"; };
-		2A98EB581B78393D006ED3BD /* ZoneBitCode.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ZoneBitCode.json; sourceTree = "<group>"; };
+		2A98EB5A1B78F2AC006ED3BD /* ZoneCode.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ZoneCode.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 				2A8D4A8D1B70904E008BDB53 /* ViewController.m */,
 				2A98EB551B748B07006ED3BD /* MWValidateIDCard.h */,
 				2A98EB561B748B07006ED3BD /* MWValidateIDCard.m */,
-				2A98EB581B78393D006ED3BD /* ZoneBitCode.json */,
+				2A98EB5A1B78F2AC006ED3BD /* ZoneCode.json */,
 				2A8D4A8F1B70904E008BDB53 /* Main.storyboard */,
 				2A8D4A921B70904E008BDB53 /* Images.xcassets */,
 				2A8D4A941B70904E008BDB53 /* LaunchScreen.xib */,
@@ -209,7 +209,7 @@
 			files = (
 				2A8D4A911B70904E008BDB53 /* Main.storyboard in Resources */,
 				2A8D4A961B70904E008BDB53 /* LaunchScreen.xib in Resources */,
-				2A98EB591B78393D006ED3BD /* ZoneBitCode.json in Resources */,
+				2A98EB5B1B78F2AC006ED3BD /* ZoneCode.json in Resources */,
 				2A8D4A931B70904E008BDB53 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
