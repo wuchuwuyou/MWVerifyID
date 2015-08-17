@@ -29,7 +29,7 @@
 
 @implementation MWValidateIDCard
 
-//身份证号
+
 + (BOOL) validateIdentityCard: (NSString *)identityCard
 {
     return [[self alloc] validateIDCard:identityCard];
@@ -157,11 +157,11 @@
 }
 - (NSString *)description{
     
-    return [NSString stringWithFormat:@"sex:%@,birthday:%@,region:%@,age:%@",self.sex == MWUserMale?@"男":@"女",self.birthday,self.region,self.age];
+    return [NSString stringWithFormat:@"sex:%@\n,birthday:%@\n,region:%@\n,age:%@\n",self.sex == MWUserMale?@"男":@"女",self.birthday,self.region,self.age];
 }
 - (NSString *)debugDescription{
     
-    return [NSString stringWithFormat:@"sex:%@,birthday:%@,region:%@,age:%@",self.sex == MWUserMale?@"男":@"女",self.birthday,self.region,self.age];
+    return [NSString stringWithFormat:@"sex:%@\n,birthday:%@\n,region:%@\n,age:%@\n",self.sex == MWUserMale?@"男":@"女",self.birthday,self.region,self.age];
 }
 
 @end
