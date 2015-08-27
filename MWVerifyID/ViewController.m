@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "MWValidateIDCard.h"
+#import "MWIDCardValidate.h"
 @interface ViewController ()
 
 @end
@@ -37,7 +38,7 @@
                      @"152525197807123097"];
     
     for (NSString *code in arr) {
-        if ([MWValidateIDCard validateIdentityCard:code]) {
+        if ([MWIDCardValidate validateIdentityCard:code]) {
             NSLog(@"身份证验证通过");
         }else{
             NSLog(@"身份证验证不通过");
