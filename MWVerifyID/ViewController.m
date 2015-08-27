@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "MWValidateIDCard.h"
+
 #import "MWIDCardValidate.h"
 @interface ViewController ()
 
@@ -43,9 +43,6 @@
         }else{
             NSLog(@"身份证验证不通过");
         }
-        MWUser *user =  [MWValidateIDCard userInfoWithidentityCard:code];
-        NSLog(@"%@",user);
-
     }
     
 }
