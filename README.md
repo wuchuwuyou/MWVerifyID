@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/MWIDCardValidate.svg)](https://github.com/wuchuwuyou/MWVerifyID/blob/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/MWIDCardValidate.svg)](https://img.shields.io/cocoapods/p/MWIDCardValidate.svg)
 ##Installation
-###Cocoapods
+###CocoaPods
 	#Your Podfile
 	platform :ios, '7.0'
 	pod 'MWIDCardValidate', '~> 1.0.0'
