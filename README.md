@@ -5,8 +5,8 @@ MWIDCardValidate（身份证验证）
 [![Platform](https://img.shields.io/cocoapods/p/MWIDCardValidate.svg)](https://img.shields.io/cocoapods/p/MWIDCardValidate.svg)
 
 Installation
+  `CocoaPods`
 
-CocoaPods
 	#Your Podfile
 	platform :ios, '7.0'
 	pod 'MWIDCardValidate', '~> 1.0.0'
