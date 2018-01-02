@@ -18,4 +18,5 @@ Usage
 	BOOL isValidate = [MWIDCardValidate validateIdentityCard:IDNumber];
 	
 Licenses
+
 MIT License
